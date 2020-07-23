@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-color: rgba(0,0,0,0.9);
+  }
+  
+  .content {
+    margin: 0 auto;
+    width: 50vw;
+    max-width: 50em;
+    padding-top: 10vh;
+  }
+  
+  .sticky_bound {
+    position: relative;
+  }
+  
+  .poster_container {
+    position: sticky;
+    margin: 0 auto;
+    height: 80vh;
+    bottom: 10vh;
+    margin-bottom: 10vh;
+  }
+    
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+    }
+  
+  
+  
+  
+  /*NAVBAR*/
+  
+  
+  
+  nav{
+      list-style:none;
+      margin:0;
+      padding:0;
+      text-align:center;
+     font-family: 'Roboto Mono', monospace;
+    position:sticky;
+    top:0;
+    right:0;
+    height:10vh;
+  
+  }
+  nav li{
+      display:inline;
+    color: white;
+  
+  }
+  nav a{
+      display:inline-block;
+      padding:10px;
+      color: white;
+  
+  }
+  
